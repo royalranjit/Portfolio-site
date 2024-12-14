@@ -53,7 +53,7 @@ const sendEmail = (e) => {
           whileInView={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: -100 }}
           transition={{duration: 1 }} 
-          className="bg-transparent text-white rounded-md border border-sky-500" rows={8} placeholder="Message" name="message" />
+          className="bg-transparent text-white rounded-md border border-sky-500" rows={8} required placeholder="Message" name="message" />
           <motion.button
           whileInView={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: -100 }}
